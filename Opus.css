@@ -657,8 +657,11 @@ h5{
 @media screen and (min-width: 1300px){
     .container{
         width: 99%;
-        font-size: 110%;
+        font-size: 105%;
     }
+	.content2{
+		padding-bottom: 20px;
+	}
 }
 
 
