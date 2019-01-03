@@ -624,11 +624,7 @@ h5{
     border: 10px solid aliceblue;
     border-radius: 5px;
 }
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 @media screen and (max-width: 800px){
     .content1,
     .content2,
@@ -670,6 +666,11 @@ h5{
     padding-bottom: 0px;
 	}	
 	
+}
+.group:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
