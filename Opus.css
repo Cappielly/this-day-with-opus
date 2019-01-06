@@ -5,6 +5,7 @@ body{
 .container{
     max-width: 99%;
     margin:auto;
+    font-weight: bold;
 }
 h1{  
     text-align: center;
@@ -20,7 +21,7 @@ h2{
 .content1{
     margin: auto;
     width: 60%;
-    height: 700px;
+    height: 100vh;
     border: 3px solid black;
 }
 /* entire container, keeps perspective */
@@ -40,21 +41,22 @@ h2{
 
 .flip-container, .back{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    font-size: calc(.5vw + .5vh + .95vmin);
     background-color: aliceblue;
-    padding: 0px 5px 0px 5px;
-    font-size: 105%; 
+    padding: 0px 5px 0px 5px; 
     box-sizing: border-box;
 }
 .flip-container, .front, .back{
     
 }
+
 #opcover{
     max-width: 99%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 690px; 
+    height: 99vh; 
     border-top: 10px solid aliceblue;
     border-radius: 5px;
     box-sizing: border-box;
@@ -147,12 +149,13 @@ h5{
 .content2{
     float: left;
     width: 50%;
+    height: 100vh;
     margin-top: 15px;
     background-color: aliceblue;
     padding: 6px 10px 20px 10px;
     border-right: 2px solid black;
     border-radius: 5px;
-    font-size: 110%;
+    font-size: calc(.45vw + .5vh + 1vmin);
     outline-offset: 5px;
     box-sizing: border-box;
     
@@ -160,7 +163,7 @@ h5{
 .content3{
     float: left;
     width: 50%;
-    height: 700px;
+    height: 100vh;
     margin-top: 15px;
     border-left: 2px solid black;
     box-sizing: border-box;
@@ -179,11 +182,11 @@ h5{
 
 .flip-container1, .back1{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: aliceblue;
     padding: 0px 5px 0px 5px;
     border-radius: 5px;
-    font-size: 105%;
+    font-size: calc(.45vw + .5vh + 1vmin);
     box-sizing: border-box;
     
     
@@ -228,11 +231,12 @@ h5{
 }
 #opcat{
     max-width: 99%;
-    height: 680px;
+    height: 99vh;
     display: block;
-    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
+    box-sizing: border-box;
    
 }
 .turn1{
@@ -251,7 +255,7 @@ h5{
 .content4{
     float: left;
     width: 50%;
-    height: 700px;
+    height: 100vh;
     margin-top: 15px;
     border-right: 2px solid black;
     box-sizing: border-box;
@@ -271,10 +275,11 @@ h5{
 .flip-container2, .back2{
     background-color: aliceblue;
     width: 100%;
-    height: 100%;
-    padding: 0px 5px 0px 5px;
+    height: 100vh;
+    padding: 0px 5px;
     border-radius: 5px;
-    font-size: 110%;
+    line-height: 105%;
+    font-size: calc(.45vw + .5vh + 1vmin);
     box-sizing: border-box;
         
 }
@@ -316,11 +321,12 @@ h5{
 }
 #opjoe{
     max-width: 99%;
-    height: 680px;
+    height: 99vh;
     display: block;
-    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
+    box-sizing: border-box;
         
 }
 #text{
@@ -329,19 +335,19 @@ h5{
 .content5{
     float: left;
     width: 50%;
+    height: 100vh;
     margin-top: 15px;
     background-color: aliceblue;
     padding: 0px 10px 14px 10px;
     border-left: 2px solid black;
     border-radius: 5px;
-    font-size: 120%;
-    line-height: 105%; 
+    font-size: calc(.45vw + .5vh + 1vmin);
     box-sizing: border-box;
     
 }
 #scratch{
     width: 100%;
-    height: 280px;
+    height: 380px;
     
 }
 .wrap3{
@@ -351,12 +357,13 @@ h5{
 .content6{
     float: left;
     width: 50%;
+    height: 100vh;
     background-color: aliceblue;
     margin-top: 15px;
     padding: 0px 10px 0px 10px;
     border-right: 2px solid black;
     border-radius: 5px;
-    font-size: 108.5%;
+    font-size: calc(.4vw + .5vh + 1vmin);
     box-sizing: border-box;
 }
 .isa{
@@ -367,7 +374,7 @@ h5{
 .content7{
     float: left;
     width: 50%;
-    height: 700px;
+    height: 100vh;
     margin-top: 15px;
     background-color: aliceblue;
     border-left: 2px solid black;
@@ -390,9 +397,10 @@ h5{
 
 .flip-container3, .back3{
     background-color: aliceblue;
-    padding: 0px 5px 0px 5px;
+    height: 100vh;
+    padding: 0px 5px;
     border-radius: 5px;
-    font-size: 105%;
+    font-size: calc(.5vw + .5vh + 1vmin);
     box-sizing: border-box;
         
 }
@@ -434,11 +442,12 @@ h5{
 }
 #luigi{
     max-width: 99%;
-    height: 680px;
+    height: 99vh;
     display: block;
-    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
+    box-sizing: border-box;
 }
 .wrap4{
     
@@ -446,7 +455,7 @@ h5{
 .content8{
     float: left;
     width: 50%;
-    height: 700px;
+    height: 100vh;
     margin-top: 10px;
     background-color: aliceblue;
     border-right: 2px solid black;
@@ -466,9 +475,10 @@ h5{
 
 .flip-container4, .back4{
     background-color: aliceblue;
-    padding: 0px 10px 0px 10px;
+    height: 100vh;
+    padding: 0px 10px;
     border-radius: 5px;
-    font-size: 110%;
+    font-size: calc(.5vw + .5vh + 1vmin);
         
 }
 .flip-container4, .front4, .back4{
@@ -508,18 +518,20 @@ h5{
 }
 #jump{
     max-width: 100%;
-    height: 680px; 
+    height: 99vh; 
     padding-top: 10px;
+    box-sizing: border-box;
 }
 .content9{
     float: left;
     width: 50%;
+    height: 100vh;
     margin-top: 10px;
-    padding: 0px 10px 18px 10px;
+    padding: 0px 10px;
     background-color: aliceblue;
     border-left: 2px solid black;
     border-radius: 5px;
-    font-size: 119%;
+    font-size: calc(.5vw + .5vh + 1vmin);
     box-sizing: border-box;
 }
 #moonbeam{
@@ -532,10 +544,10 @@ h5{
 .content10{
     float: left;
     width: 50%;
+    height: 100vh;
     margin-top: 10px;
     background-color: aliceblue;
-    font-size: 110%;
-    line-height: 99%;
+    font-size: calc(.5vw + .4vh + 1vmin);
     border-right: 2px solid black;
     border-radius: 5px;
     box-sizing: border-box;
@@ -552,13 +564,14 @@ h5{
 
 
 .flip-container5, .back5{
+    height: 100vh;
     background-color: aliceblue;
-    padding: 0px 10px 6px 10px;
+    padding: 0px 10px;
     border-radius: 5px;
         
 }
 .flip-container5, .front5, .back5{
-    height: 702px;
+    
 }
 
 
@@ -595,19 +608,19 @@ h5{
 }
 #bear{
     max-width: 100%;
-    height: 690px; 
+    height: 99vh; 
     padding-top: 10px;
-    
+    box-sizing: border-box;
 }
 
 .content11{
     float: left;
     width: 50%;
+    height: 100vh;
     margin-top: 10px;
-    padding: 0px 10px 12px 15px;
+    padding: 0px 10px;
     background-color: aliceblue;
-    font-size: 110%;
-    line-height: 98%;
+    font-size: calc(.4vw + .4vh + 1vmin);
     border-left: 2px solid black;
     border-radius: 5px;
     box-sizing: border-box;
@@ -624,9 +637,7 @@ h5{
     border: 10px solid aliceblue;
     border-radius: 5px;
 }
-
 @media screen and (max-width: 800px){
-    .content1,
     .content2,
     .content3,
     .content4,
@@ -638,38 +649,45 @@ h5{
     .content10,
     .content11{
         width: auto;
-        float: none;
-    }.content-area{
-        font-size: 85%;
-    }    
+        float: none;}
 }
-@media screen and (max-width: 480px){
-    .content1{
-        font-size: 92%;
-    }
+@media screen and (max-width:800px){
+    .flip-container, .back,
+    #opcover,
+    .content1,
+    .content2,
+    .content3,
+    .flip-container1, .back1,
+    #opcat,
+    .content4,
+    .flip-container2, .back2,
+    #opjoe,
+    .content5,
+    .content6,
     .content7,
-    .content8{
-        font-size: 94%;
+    .flip-container3, .back3,
+    #luigi,
+    .content8,
+    .flip-container4, .back4,
+    #jump,
+    .content9,
+    .content10,
+    .flip-container5, .back5,
+    #bear{
+        width: auto;
+        font-size: calc(1vw + 1vh + .3vmin);
     }
-    .content10{
-        font-size: 105%;
+    .content11{
+        width: auto;
+        font-size: calc(.94vw + .94vh + .4vmin);        
     }
-}
 
-   .flip-container1, .back1{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 0px;
-	}	
-	
 }
-.group:after{
+    
+
+.group:after {
   content: "";
   display: table;
   clear: both;
 }
-
-
-
-
 
